@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fritz's Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+        <!-- zain font family -->
+        <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+        <!-- material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container-fluid px-0">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <span class="material-icons-outlined">home</span>
+                        Welcome!
+                    </a>
+                    <button 
+                        type="button" 
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                    <div class="container px-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="works.html">Works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="resume.pdf">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="video_container">
+                <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="bgVideo">
+                    <source src="images/game-showcase.mp4" type="video/mp4" />
+                </video>
+            </div>
+            
+            <!-- home content -->
+            <div class="d-flex align-items-center" id="home-content">
+                <div class="row">
+                    <img src="images/pipipi.png" class="bear">
+                    <h1 class="text-center fw-bold display-3">Hello, I'm Fritzvien Garing!</h1>
+                    <h1 class="text-center">I am an aspiring web developer, game developer, and artist.</h1>
+                    <h2 class="text-center fw-light">fritzmgaring@gmail.com</h2>
+                    <h2 class="text-center fw-light">+63 960-862-5081</h2>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                        <a class="btn btn-outline-light btn-lg" href="https://codepen.io/fmgaring">Codepen</a>
+                        <a class="btn btn-outline-light btn-lg" href="https://github.com/fmgaring">Github</a>
+                        <a class="btn btn-outline-light btn-lg" href="https://www.linkedin.com/in/fritzvien-garing">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- custom js -->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
